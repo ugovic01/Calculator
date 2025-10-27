@@ -76,6 +76,7 @@ function evaluate() {
   secondNumber = display.textContent;
   display.textContent = operate(currentOperator, firstNumber, secondNumber);
   currentOperator = null;
+  shouldResetDisplay = true;
 }
 
 // Clear
